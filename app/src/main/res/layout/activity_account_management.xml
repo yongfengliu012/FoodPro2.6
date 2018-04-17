@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Note: All info must be filled out, otherwise it won't save"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Change Username(20 chars max)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="20"
+        android:id="@+id/userNameInfoUpdate" />
+    <TextView
+        android:text="Change Password(10 chars max)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/passwordInfoUpdate" />
+    <TextView
+        android:text="Type Password Again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/passwordInfo2Update" />
+    <Button
+        android:text="Submit"
+        android:id="@+id/btnUserInfoUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnClearUserInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear User Info"/>
+</LinearLayout>
